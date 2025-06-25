@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: strefa-ubuntu
+spec:
+  containers:
+  - name: ubuntu-container
+    image: ubuntu:18.04
